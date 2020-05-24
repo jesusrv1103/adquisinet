@@ -53,7 +53,7 @@
                         <thead>
                             <tr>
                                 <th>Nombre</th>
-                                <!-- <th>Editar</th> -->
+                             <th>Editar</th> 
                                 <th>Eliminar</th>
                             </tr>
                         </thead>
@@ -61,15 +61,15 @@
                             @foreach ($unidades as $unidad)
                             <tr>
                                 <td>{{ $unidad->nombre }}</td>
-<!-- 
+
                                 <td>
-                                    <!-- <center>
+                                 <center>
                                         <a data-toggle="modal"
                                         data-target="#modal-edit-{{$unidad->id}}"
                                             class="btn btn-label-facebook">
                                             <i class="icon-policeedit"></i>Editar</a>
-                                    </center> -->
-                                <!-- </td> -->
+                                    </center> 
+                                </td> 
                                 <td>
                                     <center>
                                         <button type="button"  class="btn btn-label-google btn-label-brand btn-sm" 
